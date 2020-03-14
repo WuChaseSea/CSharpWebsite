@@ -11,4 +11,8 @@ public partial class LMIO_lmio : System.Web.UI.Page
     {
 
     }
+    public string delete_bt(string bts)
+    {
+        return "<div onclick=\"JavaScript:return confirm('确定删除-" + bts + "-吗？')\">删除</div>";
+    }
 }
